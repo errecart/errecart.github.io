@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Let's Answer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/trabajo.css">
+</head>
+
+<body>
+    <div id="nav">
+        <nav class="navB navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class=" titulo navbar-brand" href="#">Let's Answer</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#juegos">Juegos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gracias">Resultados</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <header id="header">
+        <div class="infoP">
+            <img src="img/img-fondo.jpg"
+                alt="perscepcion sobre lo que piensan la spersonas al estar en algun tipo de prueba">
+            </img>
+        </div>
+        <section id="formCuenta">
+            <h3>Cuenta</h3>
+            <form>
+                <label for="usuario">Usuario</label>
+                <input id="usuario" type="text" name="usuario"><br>
+
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email"><br>
+
+                <input type="button" id="enviar" value="Enviar" name="enviar">
+
+                <input type="button" id="borrarCuenta" value="Borrar Acceso" name="enviar">
+                <p class="deseaBorrar">desea borrar el acceso para participar?</p>
+            </form>
+
+
+        </section>
+    </header>
+    <main id="main">
+        <section id="juegos">
+            <section id="Juego1">
+                <div id="Layer1">
+                    <h2>Juego1: Sos una Patty o una Selma?</h2>
+                    <div class="datos1">
+                        <img src="img/img-pregunta1/foto1.jpg" alt="">
+                        <p>Del mundo de los simpson viene este test para determinar cual de las hermanas Bouvier eres,
+                            una Patty o una Selma. Dado que son gemelas tienen su parentesco pero viendo cual es tu
+                            resultado veras como eres de verdad. </p>
+                    </div>
+                    <div class="contenido">
+                        <div>
+                            <form class="preguntasA">
+                                <h4>1-Elija uno de los siguientes iconos</h4>
+                                <select id="pA1">
+                                    <option value="">seleccionar</option>
+                                    <option value="20"><span style='font-size:100px;'>&#11088;</span>
+                                    </option>
+                                    <option value="15"><span style='font-size:100px;'>&#9996;</span>
+                                    </option>
+                                    <option value="40"><span style='font-size:100px;'>&#9995;</span>
+                                    </option>
+                                    <option value="10"><span style='font-size:100px;'>&#9994;</span>
+                                    </option>
+                                    <option value="30"><span style='font-size:100px;'>&#9997;</span>
+                                    </option>
+                                </select>
+
+                                <h4>2-Elija uno de los siguientes simbolos</h4>
+                                <select id="pA2">
+                                    <option value="5">seleccionar</option>
+                                    <option value="10">+</option>
+                                    <option value="15">-</option>
+                                    <option value="25">/</option>
+                                    <option value="20">*</option>
+                                </select>
+
+                                <h4>3-Elija uno de las siguientes letras</h4>
+                                <select id="pA3">
+                                    <option value="">seleccionar</option>
+                                    <option value="20">A</option>
+                                    <option value="30">B</option>
+                                    <option value="15">K</option>
+                                    <option value="40">R</option>
+                                    <option value=25>Z</option>
+                                </select>
+
+                                <h4>4-Elija uno de los siguientes colores</h4>
+                                <select id="pA4">
+                                    <option value="">seleccionar</option>
+                                    <option value="35">Rojo</option>
+                                    <option value="30">Dorado</option>
+                                    <option value="10">Celeste</option>
+                                    <option value="15">Verde</option>
+                                </select>
+
+                                <button type="button" class="boton" id="resultado1"
+                                    value="CalcularResultado">RESULTADO</button>
+                                <h5 id="infoQ1"></h5>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="Juego2">
+                <div id="Layer2">
+                    <h2>Juego2: Que Vengador original sos?</h2>
+                    <div class="datos1">
+                        <img src="img/img-pregunta1/foto2.jpg" alt="">
+                        <p>Con la fama del universo MCU, en otras palabras las peliculas basadas en los comics de
+                            Marvel. En esto decidiras cula de los 6 integrantes primordiales de los Vengadores eres, en
+                            base a las selecciones que tomes</p>
+                    </div>
+                    <div class="contenido">
+                        <form>
+                            <h4>1-Elija un deporte</h4>
+                            <select id="pB1">
+                                <option value="">seleccionar</option>
+                                <option value="20">Futbol</option>
+                                <option value="5">Hockey</option>
+                                <option value="30">Polo</option>
+                                <option value="10">Bascket</option>
+                            </select>
+                            <h4>2-Cual de las siguientes cualidades prefriere</h4>
+                            <select id="pB2">
+                                <option value="">seleccionar</option>
+                                <option value="10">Fuerza</option>
+                                <option value="25">Inteligencia</option>
+                                <option value="10">Destreza</option>
+                                <option value="20">Super Poder</option>
+                                <option value="15">Deduccion</option>
+                            </select>
+                            <h4>3-Cual es tu festividad favorita?</h4>
+                            <select id="pB3">
+                                <option value="">seleccionar</option>
+                                <option value="25">Navidad</option>
+                                <option value="35">Anio Nuevo</option>
+                                <option value="20">Halloween</option>
+                                <option value="10">Pascua</option>
+                                <option value="5">Carnabal</option>
+                            </select>
+                            <h4>4-Cual es su estacion favorita?</h4>
+                            <select id="pB4">
+                                <option value="">seleccionar</option>
+                                <option value="20">Verano</option>
+                                <option value="15">Invierno</option>
+                                <option value="35">Primavera</option>
+                                <option value="10">Otonio</option>
+                            </select>
+                            <h4>5-Que poder te gustaria tener?</h4>
+                            <select id="pB5">
+                                <option value="">seleccionar</option>
+                                <option value="5">Volar</option>
+                                <option value="15">Super Velocidad</option>
+                                <option value="30">Super Fuerza</option>
+                                <option value="25">Teletransportacion</option>
+                                <option value="20">Magia</option>
+                                <option value="10">Rayos Laser</option>
+                            </select>
+
+                            <h4>6-Cual es tu tipo de comida Fvorita</h4>
+                            <select id="pB6">
+                                <option value="">seleccionar</option>
+                                <option value="10">Carne</option>
+                                <option value="20">Verdura</option>
+                                <option value="25">Golosinas</option>
+                                <option value="15">Pescado</option>
+                                <option value="35">Alcohol</option>
+                            </select>
+
+                            <button type="button" class="boton" id="resultado2"
+                                value="CalcularResultado">RESULTADO</button>
+                            <h5 id="infoQ2"></h5>
+
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <div id="gracias">
+        <button type="button" id="result1" class="button btn btn-primary btn-sm">Resultados de Juego 1</button>
+        <div id="contenedorResultadoA"></div>
+        <button type="button" id="result2" class="button btn btn-secondary btn-sm">Resultados de Juego 2</button>
+        <div id="contenedorResultadoB"></div>
+    </div>
+    <div id="footerF"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.17/dist/sweetalert2.all.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="java/trabajo.js"></script>
+
+</body>
+
+</html>
